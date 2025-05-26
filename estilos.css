@@ -1,0 +1,56 @@
+.cabecera {
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo {
+    height: 80px;
+}
+
+.titulo_c {
+    flex-grow: 1;
+    text-align: center;
+    font-size: 70px;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.nueva-inscripcion {
+    display: block;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.tabla {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+}
+
+.tabla th,
+.tabla td {
+    border: 2px solid black; 
+    padding: 10px;
+    text-align: center;
+}
+
+.tabla-inscritos th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
